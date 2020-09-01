@@ -10,5 +10,23 @@ package proyectoiib_poo;
  * @author justi
  */
 public class PerroInfernal extends Enemigo{
+    private int vida = 200;
     
+    
+    @Override
+    public int ataque(){
+        int dañoCausado = (int)(Math.random()*1);
+        return dañoCausado;
+    }
+    
+    @Override
+    public int ataqueEspecial(){
+        int dañoCausado = (int)(Math.random()*1)*2;
+        return dañoCausado;
+    }
+    
+
+    public int getVida() {
+        return vida;
+    }
 }

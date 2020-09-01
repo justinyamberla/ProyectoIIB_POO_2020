@@ -9,12 +9,12 @@ package proyectoiib_poo;
  *
  * @author justi
  */
-public class Enemigo {
+public abstract class Enemigo {
     private int vida;
     private int damage;
     private int turnoActual;
     
-    public void ataque(){}
+    public abstract int ataque();
     
-    public void ataqueEspecial(){}
+    public abstract int ataqueEspecial();
 }
