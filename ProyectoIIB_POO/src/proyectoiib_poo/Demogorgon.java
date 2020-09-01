@@ -10,7 +10,7 @@ package proyectoiib_poo;
  * @author justi
  */
 public class Demogorgon extends Enemigo{
-    private int vida = 150;
+    private int vida = (int) Math.random()*(200-150+1)+150;
     
     
     @Override
