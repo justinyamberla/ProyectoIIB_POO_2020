@@ -15,13 +15,13 @@ public class PerroInfernal extends Enemigo{
     
     @Override
     public int ataque(){
-        int dañoCausado = (int)(Math.random()*1);
+        int dañoCausado = (int)(Math.random()*(6-1+1)+1);
         return dañoCausado;
     }
     
     @Override
     public int ataqueEspecial(){
-        int dañoCausado = (int)(Math.random()*1)*2;
+        int dañoCausado = (int)(Math.random()*(6-1+1)+1)*2;
         return dañoCausado;
     }
     

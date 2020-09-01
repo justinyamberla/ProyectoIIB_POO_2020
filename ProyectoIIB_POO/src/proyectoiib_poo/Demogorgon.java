@@ -15,13 +15,13 @@ public class Demogorgon extends Enemigo{
     
     @Override
     public int ataque(){
-        int dañoCausado = (int)(Math.random()*3);
+        int dañoCausado = (int)(Math.random()*(7-3+1)+3);
         return dañoCausado;
     }
     
     @Override
     public int ataqueEspecial(){
-        int dañoCausado = (int)(Math.random()*3);
+        int dañoCausado = (int)(Math.random()*(7-3+1)+3);
         return dañoCausado;
     }
     
