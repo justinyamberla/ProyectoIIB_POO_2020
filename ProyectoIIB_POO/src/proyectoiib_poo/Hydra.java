@@ -10,7 +10,7 @@ package proyectoiib_poo;
  * @author justi
  */
 public class Hydra extends Enemigo{
-    private int vida = 300;
+    private int vida = (int) Math.random()*(400-300+1)+300;
     
     
     @Override
